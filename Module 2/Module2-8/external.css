@@ -1,0 +1,55 @@
+.header{
+background-image: url('module2-8.webp');
+height: 300px;
+/* background-repeat: repeat-y;
+background will repeat after y axis */
+/* background-size: cover;
+cover part means the front part will be shown */
+/* background-size: contain; */
+ /* background-size:  200px;
+ it will take 200px height and width  */
+ /* background-image: url('../'); this will move to the folder the is in..we can seklect other folder's image file by this */
+
+
+}
+
+
+
+
+
+/* This part is from module 2-7 */
+
+h3 {
+    color: blueviolet;
+    text-decoration: overline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second{
+    display: none;
+    /* nothing will be displayed */
+visibility: hidden;
+/* visibility will be hidden but the space of the content will remain */
+}
+.blog {
+    border: 10px solid tomato;
+    margin: 40px;
+    /* if margin is not given then shadow will be given combinedly by all boxes */
+    box-shadow: 10px 10px 20px rebeccapurple;
+    /* this means x axis(10px),y axis(10px),spreading of shadow(20px) */
+}
+.est {
+    border: 2px solid black;
+    /* display: block;
+     this will make the span a block element */
+    height: 25px;
+    /* height wont work if display is not blocked */
+    margin: 10px;
+    /* if display is not blocked for an inline element displaymargin will only work in left and right and same for padding */
+    padding: 20px;
+    display: inline-block;
+    /* this will make the span a block element..the whole line wont be blocked by this like display:block */
+}
+li{
+    display: inline;
+}

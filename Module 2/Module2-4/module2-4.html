@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        /* this is an universal selector which will apply to all elements in the document
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+
+
+        /* p {
+            color: red;
+
+        } */
+
+        /* multiple selectors can be used like this */
+        #fifth,
+        li {
+            font-size: 25px;
+        }
+
+        /* two classes can be defined like this */
+        .holud,
+        .yellow {
+            background-color: yellow;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        /* this is a attribute selector */
+        input[type="password"] {
+            color: red;
+        }
+        .line {
+            color: blue;
+        }
+        .div1 {
+            background-color: rgb(230, 7, 7);
+            color: green;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Explore Mixed Selectors</h3>
+    <p>My first <span class="line">line Css</span> </p>
+    <!-- for small portion of text we can use span tag -->
+    <p class="yellow">My first line Css</p>
+    <p class="yellow bold">My first line Css</p>
+    <!-- this is adding multiple classes to the same element..both the classes attribute will be applied-->
+    <!-- a single element can have only one id and id name can not be repeated in the same document -->
+
+    <p>My first line Css</p>
+    <p id="fifth">My first line Css</p>
+    <p class="bold">My first line Css</p>
+    <p class="holud">My first line Css</p>
+    <p>My first line Css</p>
+    <ol>
+        <li>element selector</li>
+        <li>class selector</li>
+        <li>universal selector</li>
+    </ol>
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+    <!-- for bigger portion of text  div tag is used -->
+     <div class="div1">
+        <h3>My first blog</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, culpa ratione dignissimos velit cupiditate eum, nulla voluptatem, in veniam provident expedita quae molestias quod ea blanditiis quas debitis omnis ipsa.</p> 
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur distinctio ullam voluptas cupiditate expedita corporis quaerat harum, voluptate laboriosam quis, iure nesciunt! Repudiandae commodi maxime soluta ea molestias adipisci repellendus.</p>    
+</div>
+</body>
+
+</html>
