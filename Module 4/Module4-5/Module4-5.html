@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        /* this is used to put all child of an element inline if they are block elements..it will lose its height but will get aligned inline along with its width*/
+        .container{
+            display: flex;
+        }
+        .container div{
+border: 2px solid black;
+width: 300px;
+height: 50px;
+font-size: 3em;
+        }
+        .container2 {
+            display: flex;
+            gap: 50px;
+
+        }
+        .box{
+            font-size: 3em;
+            border: 2px solid blue;
+            height: 50px;
+            width: 300px;
+
+        }
+        .container3{
+            display: flex;
+            justify-content:center ;
+            /* jsutify content will only be used in flex...all of these items will move to the center..there are many functionalities of justify content...try those out */
+
+        }
+        .user{
+           font-size: 3em;
+            border: 2px solid rgb(14, 191, 20);
+            height: 50px;
+            width: 300px;
+            background-color: blueviolet; 
+        }
+        .container4{
+            display: flex;
+            flex-wrap: wrap;
+            /* display wrap is used to put the items in new line when the given line's area is covered..otherwise all of the items will be in the same line */
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <div class="container2">
+        <!-- to get 6 div items together .box{$}*6 -->
+     <div class="box">1</div>
+     <div class="box">2</div>
+     <div class="box">3</div>
+     <div class="box">4</div>
+     <div class="box">5</div>
+     <div class="box">6</div>   
+    </div>
+    <div class="container3">
+        <div class="user">1</div>
+        <div class="user">2</div>
+        <div class="user">3</div>
+    </div>
+    <div class="container4">
+      <div class="user">1</div>
+      <div class="user">2</div>
+      <div class="user">3</div>
+      <div class="user">4</div>
+      <div class="user">5</div>
+      <div class="user">6</div>
+      <div class="user">7</div>
+      <div class="user">8</div>
+      <div class="user">9</div>
+      <div class="user">10</div>
+      <div class="user">11</div>
+      <div class="user">12</div>  
+    </div>
+</body>
+</html>

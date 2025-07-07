@@ -1,0 +1,18 @@
+nav li {
+    list-style: none;
+    /* this will vanish the lsit styles */
+    display: inline-block;
+    color: blue;
+    margin-right: 15px;
+}
+nav li:hover{
+    color: rgb(219, 7, 7);
+    /* this will change the color of the text when hovered */
+}
+nav li a {
+    text-decoration: none;
+    /* this will evade the by default text decoration of anchor tags */
+}
+footer{
+    text-align: center;
+}

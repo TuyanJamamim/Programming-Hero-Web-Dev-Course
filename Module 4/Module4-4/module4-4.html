@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this will create a box around table elements..***Will have to use selectors variety*** */
+        td,
+        th {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        /* gaps between table element boxes will be filled */
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <table>
+            <caption>My friends data</caption>
+            <!-- this is to add captions to the table top -->
+
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead><!-- this is how adding data inside table is done -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Priya</td>
+                    <td>Sarker</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Priya</td>
+                    <td>Sarker</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Priya</td>
+                    <td>Sarker</td>
+                    <td>17</td>
+                </tr>
+            </tbody>
+
+
+
+            <tfoot>
+                <td colspan="4">Total friends:4</td>
+            </tfoot> <!--This will span for 4 columns  -->
+
+        </table>
+    </main>
+    <!-- section can be outside of main tag -->
+    <section>
+        <ul>
+            <li>table </li>
+            <li>thead </li>
+            <li>tbody </li>
+            <li>tfoot</li>
+            <li>tr</li>
+            <li>table data: td</li>
+            <li>th:table heas data</li>
+        </ul>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <section>
+            <h2>
+                Jamal Pitha Ghor
+            </h2>
+            <form action="">
+               <fieldset>
+                <legend>Basic Info</legend>
+
+                   <!-- label will appear above the input box and take input for name -->
+                   <label for="name">Your Name</label>
+                   <input  class="name" type="text" name="" id="name" placeholder="Enter Your Name">
+                   <label for="emaial">Enter Your Email</label>
+                   <input class="name" type="email" name="emaial" id="emaial">
+                </fieldset> 
+
+<!-- look the output of fieldset -->
+<fieldset>
+    <legend>Pitha Info</legend>
+
+    <input type="radio" name="chitoi" id="chitoi">
+    <label for="chitoi">chitoi</label>
+    <!-- the checkbox will appear before text because of putting input tag ahead of label..Can not select multiple at the same time because of RADIO-->
+     <input type="radio" name="" id="dal">
+     <label for="dal">Dal</label>
+    <input type="radio" name="" id="pitha">
+    <label for="pitha">Pitha</label>
+</fieldset>
+
+<fieldset>
+<legend>Vorta</legend>
+    <input type="checkbox" name="" id="vorta1">
+    <label for="vorta1">Vorta 1</label>
+    <input type="checkbox" name="" id="vorta2">
+    <label for="vorta2">Vorta 2</label>
+    <input type="checkbox" name="" id="vorta3">
+    <label for="vorta3">Vorta 3</label>
+</fieldset>
+
+<!-- see output of TextArea -->
+<fieldset>
+    <legend>Extra Info</legend>
+    <textarea cols="50" rows="4" name="" id=""></textarea>
+<!-- cols means 50 characters can be added and 4 lines can be added -->
+</fieldset>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+<!-- it will clear all the inputed data -->
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
