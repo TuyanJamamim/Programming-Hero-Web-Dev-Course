@@ -1,0 +1,44 @@
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: lightblue;
+    
+
+}
+.container1{
+    display: flex;
+    background-color: aqua;
+    akign-items: center;
+    padding: 25px;
+    gap: 20px  ;
+}
+.conainer1 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+body{
+   max-width:1140px ; 
+   background-color: lightslategray;
+   margin: 0 auto;
+
+}
+/* here all of the items are in body and body's width is set to 1140 so all of the the items inside body will move to center */
+
+button
+{
+    width:100px ;
+    height: 30px;
+    font-size: 1.5em;
+}

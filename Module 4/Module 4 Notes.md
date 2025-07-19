@@ -44,3 +44,31 @@
 
 **\*\*\*All of the notes are taken in code file\*\*\***
 
+
+
+##### 
+
+# **Module4-6:Horizontal and Vertical Center using flex and margin 0**
+
+
+
+
+
+
+
+# Module 4-7,4-8 and 4-9:All of the notes were taken in the code files
+
+
+
+# **\*\*\*\*V.V.I.N: text-align:to put the texts center of the horizontal line**
+
+# 
+
+# **Justify-content:center(horizontal center of the box)**
+
+
+
+# **Align-content:center(vertical center of the box)\*\*\*\*\***
+
+# 
+

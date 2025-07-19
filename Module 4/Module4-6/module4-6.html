@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* this is the template to position a box center by both vertically and horizontally */
+            background-color: lightcoral;
+height: 800px;
+
+
+
+        }
+        .box{
+            font-size: 4em;
+            background-color: blue;
+            height: 300px;
+            /* .container will also take .box er height */
+            width: 300px;
+            /* width will not be applied on container */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Something
+        </div>
+    </div>
+</body>
+</html>
